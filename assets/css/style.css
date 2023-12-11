@@ -151,6 +151,10 @@
     color: black;
 }
 
+#site_footer {
+    background-image: linear-gradient(to top, rgb(200, 240, 236) , rgb(102, 102, 102));
+}
+
 .card:hover {
     scale: 1.1;
     z-index: 1;
