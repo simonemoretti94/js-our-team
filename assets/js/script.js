@@ -13,7 +13,7 @@ function teamString (name, role, photo) {
 
     console.log(stringEl.classList);
 
-    const tempEl = name + ' ' + role + ' ' + photo;
+    const tempEl = name + ' / ' + role + ' / ' + photo;
 
     stringEl.innerHTML = tempEl;
 
