@@ -122,12 +122,17 @@
     color: rgb(0, 221, 206);
 }
 
+#site_header h1:hover {
+    scale: .9;
+    filter: saturate(90%);
+}
+
 #site_main {
-    background-color: rgb(141, 255, 141);
+    background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(102, 102, 102));
 }
 
 #site_main:hover {
-    background-color: rgb(69, 252, 69);
+    background-image: linear-gradient(to bottom right, rgb(0, 0, 0) , rgb(102, 102, 102));
 }
 
 #row_strings {
