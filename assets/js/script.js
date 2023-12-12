@@ -27,8 +27,8 @@ function teamCard (name, role, photo) {
 
     
     const cardEl =  `
-    <div class="card col gy-4">
-    <img class="card-img-top p-1" src="./assets/img/${photo}" alt="ciao">
+    <div class="col card">
+        <img class="card-img-top p-1" src="./assets/img/${photo}" alt="ciao">
         <div class="card-body">
             <p class="card-text">Name: ${name}</p>
             <p class="card-text">Role: ${role}</p>
